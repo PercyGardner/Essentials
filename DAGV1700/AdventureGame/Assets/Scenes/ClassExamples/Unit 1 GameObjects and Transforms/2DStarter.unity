@@ -1296,9 +1296,9 @@ MonoBehaviour:
   triggerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 281887185}
-        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 281887184}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2958,7 +2958,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.4333333, y: 1.3333334, z: 0.2}
+  m_Size: {x: 2.71, y: 2.52, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &539632905
 SpriteRenderer:
